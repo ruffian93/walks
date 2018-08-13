@@ -27,7 +27,7 @@ class ListPage extends Component {
     user: PropTypes.bool,
     name: PropTypes.string,
     length: PropTypes.number,
-    categoryId: PropTypes.number,
+    categoryId: PropTypes.string,
     categories: PropTypes.array,
     loadingCategories: PropTypes.bool
   }
